@@ -5,12 +5,19 @@
 numero_1 = int(input("Ingrese el primer número: "))
 numero_2 = int(input("Ingrese el segundo número: "))
 
-print(f"La suma de los números es: {numero_1 + numero_2}")
-print(f"La resta de los números es: {numero_1 - numero_2}")
-print(f"La Multiplicación de los números es: {numero_1 * numero_2}")
-print(f"La División de los números es: {numero_1 / numero_2}")
-print(f"La División Entera de los números es: {round(numero_1 / numero_2)}")
-print(f"El Residuo de los números es: {numero_1 % numero_2}")
+sum = numero_1 + numero_2
+rest=numero_1 - numero_2
+mult=numero_1 * numero_2
+div=numero_1/numero_2 if numero_2 !=0 else "No se puede dividir entre cero"
+divEntera= numero_1 // numero_2 if numero_2 !=0 else "No se puede dividir entre cero"
+Residuo=  numero_1 % numero_2 if numero_2 !=0 else "No se puede dividir entre cero"
+
+print(f"La suma de los números es: {sum}")
+print(f"La resta de los números es: {rest}")
+print(f"La Multiplicación de los números es: {mult}")
+print(f"La División de los números es: {div}")
+print(f"La División Entera de los números es: {divEntera}")
+print(f"El Residuo de los números es: {Residuo}")
 
 # """Ejercicio 2: Escribe un programa que solicite al usuario un número entero y calcule
 # su cuadrado y su cubo."""
