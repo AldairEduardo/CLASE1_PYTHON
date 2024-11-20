@@ -55,6 +55,19 @@ tipo impositivo que le corresponde. (10p)'''
 # else:
 #     print("Ingreso un dato incorrecto")
 
+renta= float(input("Cual es su renta anual: "))
+
+if renta <10000:
+    print("5%")
+elif renta >=10000 and renta <= 20000:
+    print("15%")
+elif renta > 20000 and renta <= 35000:
+    print("20%")
+elif renta > 35000 and renta <= 60000:
+    print("30%")
+else:
+    print("45%")
+
 '''Escribir un programa para una empresa que tiene salas de juegos para todas las
 edades y quiere calcular de forma automática el precio que debe cobrar a sus clientes
 por entrar. El programa debe preguntar al usuario la edad del cliente y mostrar el
