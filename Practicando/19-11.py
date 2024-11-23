@@ -3,7 +3,6 @@
 # a = str(input("Ingresa una palabra: "))
 
 # for i in range(1,11):
-#     i += i 
 #     print(a)
     
 '''Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años 

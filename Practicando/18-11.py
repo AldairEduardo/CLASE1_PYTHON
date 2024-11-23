@@ -38,8 +38,6 @@ Escribe un programa que determine el mayor número en una lista.
 # for i in num:
 #     if num2 < i:
 #         num2 = i
-#     else:
-#         num2 = num2
 # print(f"El numero mayor es: {num2}")       
      
 '''4.  Contar números pares e impares en un array
