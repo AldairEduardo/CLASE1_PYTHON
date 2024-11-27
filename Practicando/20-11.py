@@ -81,17 +81,41 @@ Crea una nueva lista que contenga solo los números mayores a un valor especific
 #         a.append(i)  
 # print(a)       
 
-a = int(input("Ingrese un número: ")) #b + a = c + a = 
-b = int(input("Ingrese un número: "))
-c = int(input("longitud de número: "))
-num = [a,b]
+# a = int(input("Ingrese un número: ")) #b + a = c + a = 
+# b = int(input("Ingrese un número: "))
+# c = int(input("longitud de número: "))
+# num = [a,b]
 
-for _ in range(c - 2):
-      bucle = num[-1] + num[-2]
-      num.append(bucle)
-print(num)
+# for _ in range(c - 2):
+#       bucle = num[-1] + num[-2]
+#       num.append(bucle)
+# print(num)
       
      
        
+'''8. Suma de elementos en posiciones pares
+Crea un programa que recorra una lista y sume los elementos que se encuentran en posiciones pares.'''
 
-       
+
+# num = [1,1,2,2,6,4,5,8,4,4,4]  
+# suma = 0
+# aea=[]
+# for i in num:
+#       if i % 2 ==0:
+#             suma += i
+#             aea.append(i)
+#             aea.insert
+# print(suma)
+# print(aea)
+
+'''9. Filtrar números mayores a un valor
+Crea una nueva lista que contenga solo los números mayores a un valor especificado por el usuario.'''
+
+usu = int(input("Ingrese Numero: "))
+num = [10,20,30,40,50,60,70,80,90,100]
+aea = []
+for i in num:
+      if i > usu:
+            print(i)
+            aea.append(i)
+print(aea)
